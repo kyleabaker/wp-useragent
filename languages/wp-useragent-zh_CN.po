@@ -1,0 +1,1675 @@
+# Translation of Development Readme (trunk) in Chinese (China)
+# This file is distributed under the same license as the Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-02-10 22:11:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Development Readme (trunk)\n"
+
+#. Name.
+msgid "WP-UserAgent"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Option to only display web browser and operating system info in Admin section"
+msgstr ""
+
+#. Screenshot description.
+msgid "Example of web browser and operating system detection displayed by WP-UserAgent"
+msgstr ""
+
+#. Screenshot description.
+msgid "Screenshot of the plugin's Settings page"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Why is my Web Browser or Operating System not detected?"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Why doesn't this plugin support Nationality flags or IP2Geolocation?"
+msgstr ""
+
+#. Found in faq list item.
+msgid "How can I help?"
+msgstr ""
+
+#. Found in faq list item.
+msgid "If you find a browser that's not being detected or a bug/issue, report it!"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Speak another language? Help me <a href=\"https://translate.wordpress.org/projects/wp-plugins/wp-useragent\">translate this plugin</a>!"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Help me keep the lights on! <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=3S4Q4FH7BH9EG&amp;item_name=Wordpress%20Plugin%20(WP-UserAgent)&amp;no_shipping=1&amp;no_note=1&amp;tax=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF&amp;charset=UTF%2d8&amp;lc=US\">Donations are always appreciated</a>, large or small!"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The most likely answer is that your web browser is not using an identifiable user agent string. If your web browser isn't providing the Browser name or Operating System name in the user agent, then this plugin can't detect. If you think you've found an error with this plugin, please reach out to me in the Support section or leave a comment on the <a href=\"https://www.kyleabaker.com/goodies/coding/wp-useragent/\">plugin homepage</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This is a commonly requested feature which I'm currently looking into. At this point in time I do not have an ETA on if/when that functionality will be available."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can help in a number of ways:"
+msgstr ""
+
+#. Found in installation list item.
+msgid ""
+"<p>In your WordPress Admin menu, you will find a new menu under <strong>Settings</strong> called WP-UserAgent. There you can choose the displayed icons size, and select where to display the plugin. There are three options for displaying the plugin:</p>\n"
+"\n"
+"<ul>\n"
+"<li>Before the comment text. User's WebBrowser and OS will be displayed before comment text."
+msgstr ""
+
+#. Found in installation list item.
+msgid ""
+"<p>Custom (Advanced). You can specify the location using the wpua_custom_output() function inside the comments loop in your template (Generally in comments.php).</p>\n"
+"\n"
+"<p>Example:\n"
+"&lt;?php foreach ($comments as $comment) : ?&gt;\n"
+"<cite>&lt;?php comment_author_link() ?&gt;</cite> &lt;?php wpua_custom_output(); ?&gt; says:\n"
+"&lt;?php comment_text() ?&gt;</p>"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Detects most web browsers and popular operative systems (if you find one missing, please <a href=\"https://www.kyleabaker.com/goodies/coding/wp-useragent/\">let me know</a>!)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Shows web browser and operating system icons, names, and a link to their homepages (this will be customizable in future versions)."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Shows web browser and operating system in the Admin comments management page (unless you're using “custom” option)."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Customizable, has its own Options Page where you can change the size of the web browser and operating system icons, where you want it to be displayed, and a few other options."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Updated frequently to further extend web browser and operating system detection as well as source code improvements."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Published under GPLv3"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Easy standard installation, just upload to wp-plugins and activate it."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Customizable options."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "No basic knowledge of PHP or editing WordPress templates required."
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Published under GPLv3."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "Some of you may compare this to another well-known plugin named browsersniff. WP-UserAgent is a heavily modified and improved version of UserAgent-Spy, with several improvements over browsersniff also:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you have any other questions, please don't hesitate to ask me! The easiest way to ask me a question, comment or suggest something is to post it in the comments on the <a href=\"https://www.kyleabaker.com/goodies/coding/wp-useragent/\">plugin homepage</a>."
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Features"
+msgstr "产品特点"
+
+#. Found in description paragraph.
+msgid "<em>WP-UserAgent</em> is a simple plugin that allows you to display details about a computer's <a href=\"http://en.wikipedia.org/wiki/Operating_system\">operating system</a> or <a href=\"http://en.wikipedia.org/wiki/Web_browser\">web browser</a> that your visitors comment from."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "It uses the comment-&gt;agent property to access the <a href=\"http://en.wikipedia.org/wiki/User_agent\">User-Agent string</a>. Through a series of regular expressions, this plugin is able to detect the operating system and browser which can be integrated in comments or placed in custom places through your template(s)."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "I’m adding new web browsers and operating systems frequently, as well as updating and optimizing the source code. Your feedback is very important, new features have been added by request, so if there’s something you would like to see in <em>WP-UserAgent</em>, <a href=\"https://www.kyleabaker.com/goodies/coding/wp-useragent/\">leave a comment</a>, and I’ll see what I can do."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<em>WP-UserAgent</em> was written with Geany - <a href=\"http://www.geany.org/\">http://www.geany.org/</a>\n"
+"Images created with The Gimp - <a href=\"http://www.gimp.org/\">http://www.gimp.org/</a>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>Upload</strong> the \"wp-useragent\" folder to /wp-contents/plugins/"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>Login</strong> to your WordPress Admin menu, go to Plugins, and activate it."
+msgstr ""
+
+#. Found in installation list item.
+msgid "After the comment text.User's WebBrowser and OS will be displayed after comment text."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "In your WordPress Admin menu, you will find a new menu under <strong>Settings</strong> called WP-UserAgent. There you can choose the displayed icons size, and select where to display the plugin. There are three options for displaying the plugin:"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Custom (Advanced). You can specify the location using the wpua_custom_output() function inside the comments loop in your template (Generally in comments.php)."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid ""
+"Example:\n"
+"&lt;?php foreach ($comments as $comment) : ?&gt;\n"
+"<cite>&lt;?php comment_author_link() ?&gt;</cite> &lt;?php wpua_custom_output(); ?&gt; says:\n"
+"&lt;?php comment_text() ?&gt;"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "<em>CAUTION</em>: If you select \"Custom\" and don't use &lt;?php wpua_custom_output(); ?&gt; in your template, you won't get the information displayed."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Other options include the text to use when displaying the user's web browser and operating system as well as whether or not to show the full User-Agent string."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to adjust how version numbers are shown: Full (previous appearance, ex. 'Opera 10.52'), Simple (ex. 'Opera 10'), off (ex. 'Opera')"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleaned up web browser version parsing (simplified pretty dramatically)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleaned up os/device version parsing and architecture parsing (x64)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added text domain to enable user contributed language translations (popular request: all options and text for this plugin should now be translatable)!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added quick button/link to translation page (hopefully this encourages more people to contribute!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ran all the png images through optimization again minimize bandwidth usage (minor filesize improvements on 11 icons)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added plugin icon for a little more flair"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added frequently asked questions/answers to readme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added screenshot assets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue with custom output layout (<a href=\"https://wordpress.org/support/topic/new-div-and-custom-output\">Support Forum</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Windows icons with higher resolution and more accurate replacements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Windows Phone 8.1 detection (<a href=\"https://wordpress.org/support/topic/windows-phone-81-is-being-detected-as-iphone-ios-703?replies=1\">Support Forum</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Compatibility for the wpDiscuz plugin - WordPress Comments (<a href=\"https://wordpress.org/support/topic/compatibility-for-the-wpdiscuz-plugin-wordpress-comments?replies=1\">Support Thread</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WP-UserAgent output is now wrapped by a div with classname \"wp-useragent\". This should make it much easier for those of you wishing to apply your own CSS to adjust the appearance on your site."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved settings page with cleaner layout and improved comment preview section."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplified some option descriptions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reset default options button now available."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Quick links at the top of the page for Plugin Homepage, Support, Changelog and Donate."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed get_currentuserinfo() call which was deprecated in Wordpress 4.5+"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refactored codebase to simplify maintaince of this plugin, general cleanup and reduced duplicate code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "DEPRECATED custom output function 'useragent_output_custom()'. Please use 'wpua_custom_output()' instead."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added extra layer of security for escaping user input"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated database schema and migrate settings automatically"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated plugin options to disable autoloading (removes unnecessary memory usage)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added database cleanup on uninstall"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replace png icons with svg for crisp scalable vector graphics"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update settings page implementation to remove deprecated unregistered options warning."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Investigate adding IP Geolocation/Nationality flags (popular request)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Venenux GNU Linux and Oracle Linux."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Laconica and MovableType trackbacks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleaned some of the code for trackback detections."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for TheWorld Browser (props: mecal)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected a layout bug on the Settings page with the Comment Preview section."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to display only text. Options are now Display icons and text, icons only or text only. You may need to check your settings if you were previously using the Icon only mode as it will most likely be reset with this update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to specify css styling of image via Default (no-border), Inline Style for custom css, or Class for using a stylesheet (props: Zim)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Bolt Browser (mobile)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug where Browser and Operating System names were not passed along to the title and alt attributes in the image tags (props: cimddwc)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for more web browsers: BlackBerry Web Browser, Blazer, IEMobile, MIB (Motorola Internet Browser), NetFront, NetPositive, Obigo, Palm Pre Web Browser, Polaris, SEMC Browser, UCWEB, UP.Browser"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for more operating systems: Android, BeOS, Darwin (Mac), DragonFly BSD, Kanotix, Knoppix, LindowsOS, Linspire, Mandriva, Motorola, NetBSD, Nintendo DSi, Palm, VectorLinux, webOS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updates to detection of some rare sub-string instances: Win16 (Windows 3.11), Win95, Win98 (Windows 98 SE), Windows ME, Windows XP, Mac OSX, and Darwin (as Mac)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved detection point of Firefox near end (along with Mozilla and MSIE) so other browsers that include Firefox in the User-Agent string are properly detected (example: Swiftfox is occassionally listed after Firefox in the string, causing improper detection)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected detection of Safari. Now Opera (starting with v10) and Safari are both versioned based on the Version/x.y string."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected detection of Nokia. Minor detection change included forward slash to further narrow results."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected links to Fedora and Mosaic's homepage."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added icons for TeaShark (mobile web browser)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new detection for Mozilla versioning."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new Windows icons so a properly styled Windows icon is shown with the correct operating system version."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor code cleaning."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Sabayon Linux (props: Ian \"Thev00d00\" Whyman)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated readme.txt to take advantage of the <a href=\"http://weblogtoolscollection.com/archives/2009/06/20/attention-all-plugin-authors/\">new changelog tab</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Links: rel=&quot;nofollow&quot; is applied to all web browser and operating system links. (props: Alter Ego Blog)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Arch Linux (props: Terry Wang)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for KMail (Kontact Mail) since it has a unique and detectable user agent string."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Icon change: Macintosh (generic/old Mac) uses multi-color Apple icon, Mac OS X now uses gray Apple icon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adjusted readme.txt to appear better on the plugin page and pass validation from: http://wordpress.org/extend/plugins/about/validator/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial submission to the the WP-UserAgent SVN Plugin Repository"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Windows 3.11, Windows NT 3.11, Windows NT 4.0 and fallback check for Windows Me."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Nintendo Wii, Playstation 3 and Playstation Portable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Thunderbird (the e-mail client) since it has a unique and detectable user agent string."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Debian is now shown as Debian GNU/Linux (props: Terry Wang)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing ./img/16/net/arora.png file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected typo of Maxthon 16px and 24px icons. maxton.png -&gt; maxthon.png"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a quick fix for detecting and trimming Maxthon when no version is provided."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a \"Settings\" quick link to the plugin listing in the plugins page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Worked on description wording for plugin in plugins page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a \"Comment Preview\" section to the WP-UserAgent settings page that displays an example of the options that you choose in real time."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "All images were optimized to reduce file sizes (PNGGauntlet) which reduced the overall package size from 308.4kb to 288.1kb!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Also, WP-UserAgent has now been cleaned and extended far enough to reach the 1.0 milestone soon. I will be checking for possible problems and cleanups, but feel free to point them out to me at any time!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "90 total web browsers detectable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "35 total operating systems detectable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code cleanup (removed extra whitespace to reduce size a little) and simplification (replaced switch with if..else)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Most of the remaining icons for web browsers have been added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Linux Mint support added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A list of detectable operating systems that now also detect versions when available: CentOS, Edubuntu, Fedora, iPhone OS, Kubuntu, Mac, Ubuntu, Windows."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Also, generic Linux will now specify if it is detected to be x86_64 (64-bit or x64). Others may be included later."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Appearance adjustments made (settings icon by title and styling of \"Save Changes\" button) to WP-UserAgent Options page as well as adding a Help section with Author and Plugin Homepage to bottom of Options page for convenience."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Known Issues:"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some web browser icons have not been found/added as of yet. Those include: Chimera, KMLite, retawq, TeaShark, WorldWideWeb."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Output location \"custom\" is still highly untested."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "*Note: Please suggest web browsers and/or operating systems that I am missing so I can include them to be detected."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "34 total operating systems detectable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Implemented a fix for Opera's new versioning system, which started in version 10 snapshots, to correctly display the browser version."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleaned code more and removed unnecessary global variable references."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed detection of CentOS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Debian and Ubuntu based distros (that are supported) now fetch version numbers also. Generic GNU/Linux now also specifies x64 when detected. Fedora version fetching is in the works as well as Mac OS X. Maybe these will be added in the next release. Mac versions are a little tricky since it seems they are optionally provided and formated differently per browser.I need to add fall back checks in case an odd UA string is created without version numbers for these so they are still detected. And parse pingbacks such as \"XML-RPC for PHP 2.2\" in the future as something other than unknown."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Known Issue: Some web browser icons have not been found/added as of yet. Those include: Amiga Voyager, Cheshire, Chimera, Elinks, IBrowse, Kapiko, KMLite, Minimo, Mosaic, MultiZilla, retawq, TeaShark, WorldWideWeb. Several of these listed browsers never had an icon to begin with, however, all listed will use the \"unknown\" icon (which is generic).Output location \"custom\" is still highly untested."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added over 40 more web browsers that are detected."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a couple more operating systems that are detected"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug in previous versions that caused errors to occur when users who were not logged in attempted to post a comment."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleaned code and simplified several naming systems used."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to select DocType. Options include html and xhtml (strict for both)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Known Issue: Most of the newly detected web browsers are still missing icons. I will try to add them as soon as I possibly can."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "*Note: The original author seems to like the additions that I made since I started extending this plugin and has incorporated many of the changes that I made into the other plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Windows 7 and Windows 7 x64 to detectable OS versions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Pre-2.6 compatibility for determining and defining Plugin and Content Directories constants. WordPress documentation here: http://codex.wordpress.org/Determining_Plugin_and_Content_Directories"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced sloppy code for image paths with more dynamic code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Renamed the function \"useragent_spy_custom()\" in \"wp-useragent.php\" to \"useragent_output_custom()\" to make it more generic and move away from the UserAgent-Spy naming system."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed text attributes that were improperly added to option tags in \"wp-useragent-options.php\" to correct html validation errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adjusted the \"UserAgent Output Location\" section in \"wp-useragent-options.php\" and added the options to an ordered list, adjusting the use of the \"small\" tag."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"wp-useragent-options.php\" is now 100% XHTML 1.0 Transitional standards compliant. This is the default DTD used in the WordPress administration panel. I will eventually work towards compliance for XHTML 1.0 Strict."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed regex for OLPC so it's case insensitive."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed \"target\" attribute from browser links to improve XHTML 1.0 Strict compliance."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Gave WP-UserAgent settings page a header title to make the location more recognizable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleaned up appearance of \"wp-useragent-options.php\" settings page by categorizing the content."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated string names: $size =&gt; $uasize, $location =&gt;$ualocation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Google Chrome logo images with logo images added to UserAgent-Spy 0.5.3.2 (Images already added in my version of 0.5.2, but replaced for consistency)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Official release of WP-UserAgent"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Google Chrome (the day of its release!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Option to show complete useragent string."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Went back to useragent_spy_custom() for custom display."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Several code fixes (W3C valid XHTML, more order, etc)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Saved settings are displayed correctly on the settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to display icons only, with no text or link."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bugs:"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Epiphany, when built against WebKit would display Safari."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Major bug which would show ua-spy in your comment management page, instead of comment text when using custom."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Browser added: Lynx, Links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug where the comments would show without filters."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed Konqueror icon for new 4.0 version."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "OS added: OLPC XO, SuSE."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Browser added: W3M, Lobo, Amaya, Maxthon, Camino, NetSurf, Minefield, IceApe, SeaMonkey."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed some code (includes a bug where OLPC was detected for certain os's)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made \"browsing with\" and \"on\" words in \"Browsing with browser on OS\" customizable in the Options page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow logged in user to see the full user-agent string (easier debugging)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed string for unidentified browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "OS's added: FreeBSD, OpenBSD, Solaris."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added &lt;p&gt; tags for correct formatting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added if in options page so that current values are selected on load."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More web-browsers: Epiphany, Galeon, Opera, IE."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "O.S.'s: Xubuntu, Kubuntu, Ubuntu, Slackware."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to choose displaying useragent_spy before or after the comment text, or using useragent_spy() function in template."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Detects Firefox, Epiphany."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Detects Debian, Fedora, Gentoo"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Options menu under Settings Panel, allows 16x16 or 24x24 pixel images for icon size."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Integrates into Wordpress before comments text."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Detects Mozilla, IceWeasel, IceCat, Arora, Safari, Konqueror."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Detects Windows, GNU/Linux, iPhone and MacOS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New web browsers, devices and operating systems are always welcome."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Kirix Strata."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for LBrowser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for MicroB."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Multi-Browser XP."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for My Internet Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for NetBox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for NetCaptor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Off By One."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for OWB."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Phaseout."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for rekonq."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for SiteKiosk."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Swiftweasel."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for TheWorld Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Tjusig."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for TT Explorer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for wKiosk."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for X-Smiles."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for MorphOS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for AmigaOS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a regression where the Ubuntu version stopped being printed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed support for detecting PCLinuxOS version."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for ChromePlus."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for DeskBrowse."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for iNet Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for iRider."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for LeechCraft."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Madfox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Palemoon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Pogo."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Prism."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for uZard Web."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for uzbl."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Vonkeror."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed detection for Opera Mobile and version number (props: Cahya)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection of Nokia S60 devices (previously only the S60 web browser was detected)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection support for alternate SymbianOS identifiers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the HTC Touch Pro2 smartphone (props: Yomi)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified image vertical alignment, so the images are now more inline with the sentence."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for libwww-perl trackbacks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Peach trackbacks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Python-urllib trackbacks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Snoopy trackbacks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Tear mobile browser (props: Jake)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for PCLinuxOS (props: dani)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Mozilla Developer Preview builds."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved detection of Safari further down the chain since its being used commonly as a fallback detection for several browsers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Consolidated Firefox BonEcho, GranParadiso, Lorentz, Namoroka, Shiretoko and future development icons into the firefoxdevpre.png icon, reducing the current count from 3 to 1, cleaning the code and removing duplicates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the new Ubuntu icon for Ubuntu 10.04+, with a fallback to the old icon for previous versions of Ubuntu."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made changes to reflect the new naming change for iOS on the iPad, iPhone and iPod."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Foresight Linux (props: Tomas Forsman)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the SRWare Iron web browser (props: dani)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a workaround for using special characters in the 'Surfing' and 'on' text fields in the options page. You can now include html styling and/or quotes (props: NomikOS)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed a faulty Maemo Browser detection rule."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a donations link at the bottom of the settings page for those who feel generous enough to reward me for the time and effort I share. ;)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the UC Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Maemo Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the UP.Link browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Nokia S60 browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the J2ME/MIDP Device platform."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed detection of Safari browsers for detection Version or those without a version Listed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed generic Nokia Web Browser detection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed missing Nokia Web Browser image (props: Yomi)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed version detection for the Links browser (props: dani)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Google Chrome Frame (props: dani)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Apple iPad."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Typepad trackbacks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Drupal trackbacks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the DoCoMo web browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Xiino web browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Xandros Linux."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for IRIX Linux."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Unix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Firefox Lorentz (with a temporary related link page until I find an official or article)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Flock Sulfer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Google Wireless Transcoder."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "-------------(props: dani - above suggestions)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added trackback detection for SOAP (Simple Object Access Protocol) ex. SOAP::Lite/Perl/0.710.08"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added settings option to enable/disable links for web browsers and platforms (with a live preview example)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed some settings page validation errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated the settings page from the Wordpress 2.5 style to a Wordpress 2.9 style to make it feel more friendly. Major aesthetic improvement, too!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added browser version detection for BlackBerry web browsers (with a mod/hack fix)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the (now discontinued) Iris mobile browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated MSIE Mobile icon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Jasmine mobile web browser from Samsung."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Dolfin mobile web browser from Samsung."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Teleca (Obigo derivative) mobile web browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Java edition of the SEMC browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for LG mobile devices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Samsung mobile devices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for SonyEricsson mobile devices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added two other Windows Mobile device strings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "-------------(props: Yomi - above suggestions and code)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Namoroka web browser (props: Cahya)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified detection for Nokia devices to include a wider range."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Lubuntu in anticipation of a platform specific string eventually (as other Ubuntu derivatives have done)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for UC Web browser version detection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Novarra Vision Browser for mobile phones."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected a misspelled image filename for 24x24 seamonkey.png"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected image used for Opera Mini."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for BlackBerry device and model detection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected the BlackBerry browser detection to simply register as BlackBerry since the device model number doesn't have anything to do with the browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for vBSEO (vBulletin)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Opera 10+ so the new Opera icon is used properly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Purged unused Mac icons."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for iPod detection so an iPod Touch doesn't appear as an iPhone."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Google Chrome OS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed format and syntax of the readme.txt file that's included."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a quick fix for Opera Mini detection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optimized/reduced filesize of 31 images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Windows Phone 10"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Windows 10 detection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleaned up syntax"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed XSS security vulnerability"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added height and width attributes to icons to fix an issue with 'Simple Lazyload' (props: Yu)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed error detecting Links browser version."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an error detecting x64 versions of Windows."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Nintendo 3DS device, Microsoft Xbox, Xbox 360, Xbox One"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Windows 10"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for 3DS Browser, ANT Fresco, Aviator, Baidu Spark, Espial TV Browser, IceDragon, Kinza, LG Web Browser, MxNitro, Polarity, Rambler browser, Roccat browser, Superbird, Tesla Car Browser, Waterfox, Web Explorer, YRC Weblink"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed detection of IE11 (props: G's)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed detection of Windows 8.1 (props: JayXon)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed detection of Opera 14 for Android and Opera 15+ for Desktop (props: Rafae)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an issue with Ubuntu version detection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Amigo, Coast, CoRom, DPlus, ONE Browser, Otter, Perk, PS4 Web Browser and Ubuntu Web Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for PlayStation 4, Ubuntu Touch (Mobile and Tablet)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed incorrect Rekonq browser icon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Nintendo Wii U."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Nintendo Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed missing IE10 icons (props: Ray)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for D+ browser, Internet Explorer 10, Amazon Silk, QQbrowser, Yandex.Browser, Beamrise."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for x64 version of Windows Server 2003."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Playstation Vita."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Barca, SubStream, SlimBoat, zBrowser, Ryouko browsers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Chrome detection on Android (props: JayXon)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refactored code for easier maintenance."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release v1.0.0!!!! (w00t!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Atomic Web Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue where the Links browser was incorrectly detected for the UA \"online link validator (http://www.dead-links.com/)\" and cause a warning to appear."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Windows 8."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Wordpress App for BlackBerry, Windows Phone, Nokia, WebOS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Crunchbang, Mageia, Pardus and Rosa Linux (props: KZKG^Gaara)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed detection of SRWare Iron browser (props: KZKG^Gaara)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed detection of Windows x64 from the Chrome user agent."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for TenFourFox, Classilla, EnigmaFox, Podkicker, Maple Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Samsung Smart TV, Wordpress app for iPhone, Wordpress app for Android."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Android version detection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Alienforce Browser, Patriott, Qupzilla, Baidu Browser and ZipZap."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Chrome Mobile and Tizen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Motorola Xoom, Galaxy Nexus."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Chakra Linux (props: KZKG^Gaara)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Columbus Browser, CoolNovo, Sundial, Usejump, WebRender."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Nova Linux and WP7 (props: jako)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Opera Next detection since the ua string has changed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Opera Labs, Fireweb Navigator, Kylo, Sundance, Charon, Sylera, Dorothy Browser, and Webian Shell."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for x64 versions of Unix/Linux."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Inferno operating system."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Nokia Browser (props: Yomi)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Mac OS X version detection so its more flexible."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed icon used for Red Hat linux (props: Third Eye)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Opera Next, Android Webkit and MiniBrowser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Kindle."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for moonOS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for BlackHawk, Gtk+ WebCore, Tencent Traveler and Vimprobable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a quick fix for Arch Linux improperly being detected when IE users have SearchToolbar installed (since it improperly matched seARCHtoolbar)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new feature to hide \"Unknown\" output. This is disabled by default (props: Cahya)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for 360Safe Explorer, Saayaa Explorer and Sogou Explorer (props: Buzz)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for BrowseX, Conkeror, Element Browser, Espial TV Browser, GO Browser, InternetSurfboard, SkipStone, Surf, UltraBrowser, Weltweitimnetz Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected detection for Multi-Browser XP (was only Multi-Browser) and My Internet Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added unique icons for different versions of Microsoft Internet Explorer (props: Buzz)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Correctly escape for detection of Google Wireless Transcoder."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing IRIX OS images. The quality isn't great, but they're the best I could find and produce myself. Submissions are welcome."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adjusted Nokia Series60 browser detection so the output is less redundant (props: Yomi)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the Chromium web browser (props: Terry Wang)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for the RockMelt social web browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reorganized detection for Google Chrome since so many derivatives are beginning to use it as a base and leave it in their user agent string."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected detection of Motorola Droid to eliminate false positives for Android devices (props: Yomi)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added an option to specify a prepended word for Trackbacks and Pingbacks like the current \"using\" option. This is blank by default (props: dani)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adjusted vertical alignment of icons in the settings page to properly reflect the middle alignment they use in comments."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced poor quality WordPress icon with a better looking icon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optimized all packaged images to minimize filesizes without reducing quality. Images were reduced by approximately 50.33kb in total via PNGGauntlet. While this saves only a few extra kilobytes of bandwidth, it helps sites that are striving to perfect network performance with Page Speed for Firefox or Speed Tracer for Chrome (optimizing images)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix version detection for Maemo Browser, TencentTraveler, NetCaptor, SiteKiosk, Tablet browser, Tjusig."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed extra icons from OS folder that were supposed to be moved to devices folder (reduces plugin file size)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Split Trackback icons out into separate trackback folder (including a copy of null.png)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dramatically improved performance and simplified the detect_browser_version() method using RegEx instead of substr() which reduces 18 lines of code to only 2. This means 16 less lines of code are run per comment on your site!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed error in HTC Touch Pro2 detection (Props: Yomi)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Dell Streak, Dell Mini 5 and generic Dell devices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified generic HTC detection regex to catch strings that also match \"USCCHTC6175\" and \"HTC_XX_XX\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Mobile Safari."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added updated Edubuntu, Kubuntu, Lubuntu and Xubuntu icons for versions 10.04+ (the same as Ubuntu now). The updated Xubuntu icon has not been officially released yet, so the included icon may change later."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for generic XML-RPC trackbacks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleaned several regex detectors so they all follow the same scheme/pattern now to add some consistency to the code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected title of IceApe to Iceape."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated regex for Ubuntu and other derivatives' detection to match \"Ubuntu/10.10\" as well as \"Ubuntu 10.10\" so versions are properly parsed for both."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rewrote a large portion of the code to separate Device detection from the OS detection function for easier updating and management."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved mobile detection for a wider range of LG phones."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved regex to merge IRIX 32/64 detection into one conditional for simplicity."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved regex to merge SymbianOS and SymbOS detection into one conditional for simplicity."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved regex to for Playstation 3 and Portable detection for simplicity and added generic Playstation detection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved detection for Nintendo DSi and Wii for simplicity and organization and added generic Nintendo detection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for BenQ-Siemens mobile devices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Google Nexus One mobile devices (the Android OS was already supported)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for HTC mobile devices: HTC Desire, HTC Touch Pro2, HTC Startrek, HTC Hero, HTC Legend, HTC Magic, HTC Touch, HTC Touch Pro (props: Yomi), HTC Polaris, HTC S710, HTC Tattoo and generics or undefined."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved regex detection for a wider range of Nokia mobile devices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Palm Pre and Pixi (generics were already supported)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added model detection to Samsung devices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added model detection to SonyEricsson devices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added model detection to Motorola devices: Motorola Droid, Motorola XT720, unspecified model numbers and generic Motorola devices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed several instances of regex that were not case insensitive (to improve match success)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for IE8 Compatibility Mode detection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplified regex for Safari browser detection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Re-enabled fix for Maemo Browser version detection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleaned comments throughout code to simplify them and remove useless ones."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected displayed name of the Pale Moon web browser (from Palemoon)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed browser version detection for TheWorld Browser since it doesn't appear to ever include it."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed icon for retawq from null to a terminal icon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Abolimba."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Amiga Aweb."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Blackbird."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Browzar."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Bunjalloo."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Comodo Dragon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Demeter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for DocZilla."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Dooble."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Doris."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Edbrowse."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Epic Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for GlobalMojo."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Hv3."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Hydra Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Ice Browser."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to display User Agent information in comments only in the Admin Section"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection for Microsoft Edge, Seznam.cz, Coc Coc, Google Search App, WebPositive, Vivaldi, luakit, wOSBrowser, Puffin, NetFront Life, Ninesky, Palm WebPro browsers."
+msgstr ""
