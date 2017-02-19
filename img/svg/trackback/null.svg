@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16"><defs><filter id="b" x="1" y="1" width="14" height="14" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0" result="invert"/><feFlood flood-color="#fff" result="bg"/><feBlend in="invert" in2="bg"/></filter><mask id="a" x="1" y="1" width="14" height="14" maskUnits="userSpaceOnUse"><g style="filter:url(#b)"><path d="M3.07,11V6H4.54L6,7.84,7.48,6H9v5H7.48V8.13L6,10,4.54,8.13V11Z" style="fill:#fff"/><path d="M11.5,11,9.3,8.57h1.47V6h1.47V8.57h1.47Z" style="fill:#fff"/></g></mask></defs><title>null</title><g style="mask:url(#a)"><circle cx="8" cy="8" r="7"/></g></svg>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="&#x56FE;&#x5C42;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<path d="M8,1C4.134,1,1,4.134,1,8c0,3.866,3.134,7,7,7s7-3.134,7-7C15,4.134,11.866,1,8,1z M8.953,11H7.483V8.132L6.012,9.971
+	L4.542,8.132V11H3.071V6h1.471l1.471,1.838L7.483,6h1.471V11z M11.503,11L9.297,8.573h1.471V6h1.471v2.573h1.471L11.503,11z"/>
+</svg>

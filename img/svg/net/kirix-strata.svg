@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16"><defs><filter id="b" x="-3" y="-6" width="22" height="21" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0" result="invert"/><feFlood flood-color="#fff" result="bg"/><feBlend in="invert" in2="bg"/></filter><mask id="a" x="-3" y="-6" width="22" height="21" maskUnits="userSpaceOnUse"><g style="filter:url(#b)"><path d="M8,10C1.93,10-3,6.41-3,2S1.93-6,8-6,19-2.41,19,2,14.07,10,8,10ZM8-5C2.49-5-2-1.86-2,2S2.49,9,8,9,18,5.86,18,2,13.51-5,8-5Z" style="fill:#fff"/><path d="M8,12C1.93,12-3,8.64-3,4.5S1.93-3,8-3,19,.36,19,4.5,14.07,12,8,12ZM8-2.06C2.49-2.06-2,.88-2,4.5s4.49,6.56,10,6.56S18,8.12,18,4.5,13.51-2.06,8-2.06Z" style="fill:#fff"/><path d="M8,14C1.93,14-3,10.41-3,6S1.93-2,8-2,19,1.59,19,6,14.07,14,8,14ZM8-1C2.49-1-2,2.14-2,6s4.49,7,10,7S18,9.86,18,6,13.51-1,8-1Z" style="fill:#fff"/></g></mask></defs><title>kirix-strata</title><g style="mask:url(#a)"><circle cx="8" cy="8" r="7"/></g></svg>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="&#x56FE;&#x5C42;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<path d="M8,9C5.31,9,2.872,8.248,1.074,7.035C1.546,3.627,4.462,1,8,1c3.537,0,6.454,2.627,6.926,6.034C13.128,8.248,10.69,9,8,9z
+	 M14.884,9.242c0.063-0.354,0.1-0.716,0.109-1.086C13.091,9.304,10.659,10,8,10S2.909,9.304,1.008,8.156
+	c0.008,0.37,0.045,0.732,0.109,1.086c1.792,1.124,4.212,1.82,6.884,1.82C10.671,11.063,13.091,10.366,14.884,9.242z M8,14
+	c-1.651,0-3.212-0.273-4.619-0.749C4.615,14.336,6.228,15,8,15s3.385-0.664,4.619-1.749C11.212,13.727,9.651,14,8,14z
+	 M14.014,11.568c0.197-0.332,0.368-0.681,0.509-1.045C12.698,11.448,10.445,12,8,12s-4.698-0.552-6.524-1.477
+	c0.141,0.365,0.312,0.713,0.509,1.045C3.661,12.46,5.736,13,8,13C10.263,13,12.339,12.46,14.014,11.568z"/>
+</svg>

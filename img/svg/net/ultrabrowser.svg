@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>ultrabrowser</title><rect x="9" y="5" width="3" height="2"/><path d="M1,1V15H15V1ZM13,7H12V8h1v3H12v1H9V11H8v1H4V11H3V4H4v6H5v1H7V10H8V4h4V5h1Z"/><rect x="9" y="8" width="3" height="3"/></svg>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="&#x56FE;&#x5C42;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<g>
+	<g>
+		<rect x="9" y="5" width="3" height="2"/>
+	</g>
+	<g>
+		<path d="M1,1v14h14V1H1z M13,7h-1v1h1v3h-1v1H9v-1H8v1H4v-1H3V4h1v6h1v1h2v-1h1V4h1h3v1h1V7z"/>
+	</g>
+	<g>
+		<rect x="9" y="8" width="3" height="3"/>
+	</g>
+</g>
+</svg>

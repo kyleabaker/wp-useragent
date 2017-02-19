@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16"><defs><filter id="b" x="4" y="1" width="8" height="14" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feColorMatrix values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0" result="invert"/><feFlood flood-color="#fff" result="bg"/><feBlend in="invert" in2="bg"/></filter><mask id="a" x="4" y="1" width="8" height="14" maskUnits="userSpaceOnUse"><rect x="5" y="3" width="6" height="9" style="fill:#fff;filter:url(#b)"/></mask></defs><title>iphone</title><g style="mask:url(#a)"><rect x="4" y="1" width="8" height="14" rx="1" ry="1"/></g><rect x="7.25" y="12.75" width="1.5" height="1.5" rx="0.75" ry="0.75" style="fill:#fff"/></svg>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="&#x56FE;&#x5C42;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<path d="M11,1H5C4.448,1,4,1.448,4,2v12c0,0.552,0.448,1,1,1h6c0.552,0,1-0.448,1-1V2C12,1.448,11.552,1,11,1z M8,14.25
+	c-0.414,0-0.75-0.336-0.75-0.75c0-0.414,0.336-0.75,0.75-0.75s0.75,0.336,0.75,0.75C8.75,13.914,8.414,14.25,8,14.25z M11,12H5V3h6
+	V12z"/>
+</svg>

@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>webkit</title><path d="M8,1A7,7,0,1,1,1,8,7,7,0,0,1,8,1ZM8,2.4a5.6,5.6,0,0,0-4.12,9.39L6.52,6.52l5.27-2.64A5.55,5.55,0,0,0,8,2.4ZM8,13.6a5.6,5.6,0,0,0,4.12-9.39L9.48,9.48,4.21,12.12A5.55,5.55,0,0,0,8,13.6Z" style="fill-rule:evenodd"/></svg>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="&#x56FE;&#x5C42;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M8,1c3.866,0,7,3.134,7,7s-3.134,7-7,7s-7-3.134-7-7S4.134,1,8,1L8,1z M8,2.4
+	c-1.485,0-2.91,0.59-3.96,1.64S2.4,6.515,2.4,8c0,1.463,0.56,2.8,1.477,3.787l2.639-5.271l5.271-2.639
+	C10.757,2.924,9.404,2.396,8,2.4L8,2.4z M8,13.6c1.485,0,2.91-0.59,3.96-1.64S13.6,9.485,13.6,8c0-1.463-0.56-2.8-1.477-3.787
+	L9.484,9.484l-5.271,2.639C5.243,13.076,6.596,13.604,8,13.6L8,13.6z"/>
+</svg>

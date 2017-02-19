@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>uzardweb</title><path d="M14,1H2A1,1,0,0,0,1,2V14a1,1,0,0,0,1,1H14a1,1,0,0,0,1-1V2A1,1,0,0,0,14,1ZM13,9c0,3.16-2.06,4-5,4s-5-.91-5-4V4H6V9c0,1,1.5,1,2,1s2,0,2-1V4.65A11,11,0,0,0,8.5,6c.13-2,2.38-4.09,2.38-4.09s-.36.67,1.86,1.44A5.77,5.77,0,0,0,11,4h2Z"/></svg>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="&#x56FE;&#x5C42;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<path d="M14,1H2C1.448,1,1,1.448,1,2v12c0,0.552,0.448,1,1,1h12c0.552,0,1-0.448,1-1V2C15,1.448,14.552,1,14,1z M13,9
+	c0,3.158-2.065,3.988-5,3.988c-2.834,0-5-0.912-5-3.988V4h3v5c0,1,1.5,0.988,2,0.988S10,10,10,9V4.651C9.095,5.328,8.5,6,8.5,6
+	c0.125-1.969,2.375-4.094,2.375-4.094s-0.359,0.672,1.859,1.438C12.118,3.457,11.533,3.704,10.999,4H13V9z"/>
+</svg>

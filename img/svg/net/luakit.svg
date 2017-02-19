@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><title>luakit</title><path d="M1,1V6H3.5a.5.5,0,0,1,.5.5v6.25a.25.25,0,0,0,.25.25H6v1H3.5a.5.5,0,0,1-.5-.5V7.25A.25.25,0,0,0,2.75,7H1v8H15V1ZM12,14h-1.4L8,11.15V14H7V6H8v5l2.66-2.59H12L9.25,11.12Z"/></svg>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="&#x56FE;&#x5C42;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<g>
+	<path d="M1,1v5h2.498C3.775,6,4,6.225,4,6.502v6.245C4,12.887,4.113,13,4.253,13H6v1H3.5C3.224,14,3,13.776,3,13.5V7.247
+		C3,7.111,2.889,7,2.753,7H1v8h14V1H1z M11.976,14h-1.4L8,11.149V14H7V6h1v5l2.662-2.59h1.348l-2.76,2.713L11.976,14z"/>
+</g>
+</svg>

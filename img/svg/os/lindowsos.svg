@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16"><defs><filter id="b" x="2.64" y="-1.66" width="18.1" height="16.66" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-color="#fff" result="bg"/><feBlend in="SourceGraphic" in2="bg"/></filter><mask id="a" x="2.64" y="-1.66" width="18.1" height="16.66" maskUnits="userSpaceOnUse"><g style="filter:url(#b)"><polygon points="10.77 -1.66 20.75 -1.66 17.53 12.35 7.55 12.35 10.77 -1.66"/><rect x="2.64" y="6.23" width="7.08" height="3.54"/></g></mask></defs><title>lindowsos</title><g style="mask:url(#a)"><polygon points="6.75 1 16.72 1 13.51 15 3.53 15 6.75 1"/></g><polygon points="6.51 6.23 2.81 6.23 2 9.77 5.7 9.77 6.51 6.23"/></svg>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="&#x56FE;&#x5C42;_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<path d="M5.545,6.23L6.747,1h3.413L8.957,6.23H5.545z M7.552,12.345L8.144,9.77H4.731L3.529,15h9.977l0.61-2.655H7.552z M6.506,6.23
+	H2.805L2,9.77h3.701L6.506,6.23z"/>
+</svg>
