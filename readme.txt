@@ -4,7 +4,7 @@ Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=3S4Q4FH7
 Tags: useragent, user-agent, user agent, web, browser, web browser, operating system, platform, os, mac, apple, windows, win, linux, phone
 Requires at least: 2.0
 Tested up to: 4.7.2
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 
 == Description ==
 
@@ -83,6 +83,10 @@ Some of you may compare this to another well-known plugin named browsersniff. WP
 
 
 == Changelog ==
+
+= v1.1.5 =
+* Fix for comments not appearing when replying via admin comments section (props: ebteb)
+
 
 = v1.1.4 =
 * Fix incorrect/missing image for Android WebView (props: kissshot)
@@ -689,5 +693,5 @@ Some of you may compare this to another well-known plugin named browsersniff. WP
 
 == Upgrade Notice ==
 
-= v1.1.4 =
-* Fix incorrect/missing image for Android WebView (props: kissshot)
+= v1.1.5 =
+* Fix for comments not appearing when replying via admin comments section (props: ebteb)

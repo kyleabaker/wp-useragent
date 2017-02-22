@@ -3,7 +3,7 @@
  * Plugin Name: WP-UserAgent
  * Plugin URI: https://www.kyleabaker.com/goodies/coding/wp-useragent/
  * Description: A simple User-Agent detection plugin that lets you easily insert icons and/or textual web browser and operating system details with each comment.
- * Version: 1.1.4
+ * Version: 1.1.5
  * Author: Kyle Baker
  * Author URI: https://www.kyleabaker.com/
  * Text Domain: wp-useragent
@@ -198,7 +198,7 @@ function wpua_display_comment()
 
 	// The following conditional will hopefully prevent a problem where
 	// the echo statement will interrupt redirects from the comment page.
-	if (empty($_POST['comment_post_ID']))
+	if (empty($_POST['comment_post_ID']) || is_admin())
 	{
 		echo apply_filters('comment_text', $comment->comment_content);
 	}
@@ -291,7 +291,7 @@ function wpua_display_useragent($wpua_wrapper_div = false)
 
 	// The following conditional will hopefully prevent a problem where
 	// the echo statement will interrupt redirects from the comment page.
-	if (empty($_POST['comment_post_ID'])) echo $wpua_useragent;
+	if (empty($_POST['comment_post_ID']) || is_admin()) echo $wpua_useragent;
 }
 
 /**
