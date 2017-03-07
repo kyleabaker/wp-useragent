@@ -3,8 +3,8 @@ Contributors: kyleabaker
 Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=3S4Q4FH7BH9EG&item_name=Wordpress%20Plugin%20(WP-UserAgent)&no_shipping=1&no_note=1&tax=0&currency_code=USD&bn=PP%2dDonationsBF&charset=UTF%2d8&lc=US
 Tags: useragent, user-agent, user agent, web, browser, web browser, operating system, platform, os, mac, apple, windows, win, linux, phone
 Requires at least: 2.0
-Tested up to: 4.7.2
-Stable tag: 1.1.5
+Tested up to: 4.7.3
+Stable tag: 1.1.6
 
 == Description ==
 
@@ -83,6 +83,10 @@ Some of you may compare this to another well-known plugin named browsersniff. WP
 
 
 == Changelog ==
+
+= v1.1.6 =
+* Fix detection of UC Browser (props: kissshot)
+
 
 = v1.1.5 =
 * Fix for comments not appearing when replying via admin comments section (props: ebteb)
@@ -693,5 +697,5 @@ Some of you may compare this to another well-known plugin named browsersniff. WP
 
 == Upgrade Notice ==
 
-= v1.1.5 =
-* Fix for comments not appearing when replying via admin comments section (props: ebteb)
+= v1.1.6 =
+* Fix detection of UC Browser (props: kissshot)

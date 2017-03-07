@@ -1605,7 +1605,8 @@ function wpua_detect_webbrowser()
 		$version = wpua_detect_browser_version('TencentTraveler');
 		$code = 'tt-explorer';
 	}
-	elseif (preg_match('/uBrowser/i', $useragent))
+	elseif (preg_match('/uBrowser/i', $useragent)
+		&& !preg_match('/Chrome/i', $useragent))
 	{
 		$link = 'http://www.ubrowser.com/';
 		$title = 'uBrowser';
@@ -1619,16 +1620,30 @@ function wpua_detect_webbrowser()
 		$version = '';
 		$code = 'ubuntuwebbrowser';
 	}
+	elseif (preg_match('/UBrowser/i', $useragent))
+	{
+		$link = 'http://www.ucweb.com/';
+		$title = 'UC Browser';
+		$version = wpua_detect_browser_version('UBrowser');
+		$code = 'ucbrowser';
+	}
+	elseif (preg_match('/UCBrowser/i', $useragent))
+	{
+		$link = 'http://www.ucweb.com/';
+		$title = 'UC Browser';
+		$version = wpua_detect_browser_version('UCBrowser');
+		$code = 'ucbrowser';
+	}
 	elseif (preg_match('/UC\ Browser/i', $useragent))
 	{
-		$link = 'http://www.uc.cn/English/index.shtml';
+		$link = 'http://www.ucweb.com/';
 		$title = 'UC Browser';
-		$version = wpua_detect_browser_version('UC Browse');
+		$version = wpua_detect_browser_version('UC Browser');
 		$code = 'ucbrowser';
 	}
 	elseif (preg_match('/UCWEB/i', $useragent))
 	{
-		$link = 'http://www.ucweb.com/English/product.shtml';
+		$link = 'http://www.ucweb.com/';
 		$title = 'UC Browser';
 		$version = wpua_detect_browser_version('UCWEB');
 		$code = 'ucweb';
