@@ -3,7 +3,7 @@ Contributors: kyleabaker
 Donate Link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=3S4Q4FH7BH9EG&item_name=Wordpress%20Plugin%20(WP-UserAgent)&no_shipping=1&no_note=1&tax=0&currency_code=USD&bn=PP%2dDonationsBF&charset=UTF%2d8&lc=US
 Tags: useragent, user-agent, user agent, web, browser, web browser, operating system, platform, os, mac, apple, windows, win, linux, phone
 Requires at least: 2.0
-Tested up to: 4.7.3
+Tested up to: 4.8
 Stable tag: 1.1.6
 
 == Description ==
