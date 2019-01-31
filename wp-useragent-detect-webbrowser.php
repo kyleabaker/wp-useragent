@@ -1105,7 +1105,7 @@ function wpua_detect_webbrowser()
 		$code = 'opera-2';
 	}
 	elseif (preg_match('/Opera/i', $useragent)
-		|| preg_match('/OPR/i', $useragent))
+		|| preg_match('/OPR\/(\S+)/', $useragent))
 	{
 		$link = 'http://www.opera.com/';
 		$title = 'Opera';
